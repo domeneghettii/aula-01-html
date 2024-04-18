@@ -26,4 +26,28 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items:center ;
+
+}
+
+#principal {
+    border-radius: 6px;
+    height: 800px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main {
+    background-color: aqua;
+    border-radius: 6px;
+    height: 100%;
+    width: 74%;
+}
+
+aside {
+    background-color: rgba(127, 255, 212, 0.511);
+    border-radius: 6px;
+    height: 100%;
+    width: 25%;
 }
